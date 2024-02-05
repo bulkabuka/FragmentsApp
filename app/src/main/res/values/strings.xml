@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FragmentsApp</string>
+    <string name="send_data">Послать данные</string>
+    <string name="hello_blank_fragment">hello</string>
+</resources>
