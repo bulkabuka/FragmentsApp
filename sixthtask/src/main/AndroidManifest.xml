@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FragmentsApp">
         <activity
+            android:name="org.leftbrained.InfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

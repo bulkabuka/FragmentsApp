@@ -10,7 +10,8 @@
         <TextView
             android:id="@+id/articleName"
             android:textStyle="bold"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="4"
             android:layout_height="match_parent"
             android:text="Название статьи"/>
         <Space
@@ -18,6 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <RatingBar
+            android:id="@+id/rating"
             android:layout_gravity="end"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
