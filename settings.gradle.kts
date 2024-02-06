@@ -17,3 +17,5 @@ rootProject.name = "FragmentsApp"
 include(":app")
 include(":taskthree")
 include(":taskfour")
+include(":sixthtask")
+include(":genericapp")
