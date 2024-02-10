@@ -22,7 +22,7 @@ public class InfoActivity extends AppCompatActivity {
         ActivityInfoBinding binding = ActivityInfoBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
-        ItemViewModel viewModel = new ItemViewModel();
+        ItemViewModel viewModel = new ItemViewModel(getSharedPreferences("prefs", MODE_PRIVATE));
         viewModel.itemList.forEach(
                 item -> {
                     if (item.name.equals(getIntent().getStringExtra("name"))) {

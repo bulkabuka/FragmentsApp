@@ -2,7 +2,7 @@ package org.leftbrained.sixthtask;
 
 public class Item {
     public String name;
-    public int stars;
+    public float stars;
 
     public String link;
     public Item(String name, int stars, String link) {

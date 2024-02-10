@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ItemViewModel model = new ItemViewModel();
+        ItemViewModel model = new ItemViewModel(getSharedPreferences("prefs", MODE_PRIVATE));
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
